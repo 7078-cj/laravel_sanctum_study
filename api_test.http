@@ -1,0 +1,55 @@
+
+
+# GET http://127.0.0.1:8000/api/posts
+# Accept: application/json
+
+
+POST http://127.0.0.1:8000/api/posts
+Accept: application/json
+Content-Type: application/json 
+Authorization: Bearer 1|11YCFiiYjAS2zCezDoTIvwYBkyJLpRgKmkgWT7af91bc6a00
+
+{
+  "title": "this is my 2nd post",
+  "body": "wahhhhh wahhhhh"
+}
+
+# GET http://127.0.0.1:8000/api/posts/1
+# Accept: application/json
+
+# PUT http://127.0.0.1:8000/api/posts/1
+# Accept: application/json
+# Content-Type: application/json
+
+
+# {
+#   "title": "this is my 2nd post updated",
+#   "body": "updated body title"
+  
+# }
+
+# DELETE http://127.0.0.1:8000/api/posts/1
+# Accept: application/json
+
+
+# POST http://127.0.0.1:8000/api/logout
+# Accept: application/json
+# Content-Type: application/json
+
+# POST http://127.0.0.1:8000/api/register
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#   "name": "c7078j",
+#   "email": "cj@gmail.com",
+#   "password": "nikolo12",
+#   "password_confirmation": "nikolo12"
+# }
+
+# POST http://127.0.0.1:8000/api/logout
+# Accept: application/json
+# Content-Type: application/json
+# Authorization: Bearer 3|iqhUy964GdPhkW9sAZOhSTtAZMbYlTv9HD7FQspR5e725cdb
+
+
